@@ -12,12 +12,12 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // No Nami Dependencies
+        // No NamiApple Dependencies
     ],
     targets: [
-        // Nami is a binary XCFramework
+        // NamiApple is a binary XCFramework
         .binaryTarget(
-            name: "Nami",
+            name: "NamiApple",
             url: "https://packages.namiml.com/NamiSDK/Apple/3.0.9/NamiApple.xcframework-3.0.9.zip",
             checksum: "2e2570c25c56728f358fda8668dc262009efacc423e296631d56be4a5f0f9e12"
         ),
