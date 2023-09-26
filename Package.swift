@@ -8,17 +8,18 @@ let package = Package(
     products: [
         .library(
             name: "NamiApple",
-            targets: ["NamiApple"]),
+            targets: ["NamiApple"]
+        ),
     ],
     dependencies: [
         // No Nami Dependencies
     ],
     targets: [
         // Nami is a binary XCFramework
-	.binaryTarget(
+        .binaryTarget(
             name: "NamiApple",
-            url: "https://packages.namiml.com/NamiSDK/Apple/3.0.5/NamiApple.xcframework-3.0.5.zip",
-            checksum: "2a119ca78e600fa9012f17f5147a14cb0f314fc7eed80dd05d73c90a6d5f9a1b"
-        )
+            url: "https://packages.namiml.com/NamiSDK/Apple/3.1.12-rc.01/NamiApple.xcframework-3.1.12-rc.01.zip",
+            checksum: "cf987667e4384603abe7047baa9a35a768642695c8d60096b9d9cb7ece4a513c"
+        ),
     ]
 )
